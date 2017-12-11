@@ -1,0 +1,10 @@
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\bin\Debug\HostEdit.exe.config
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\bin\Debug\HostEdit.exe
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\bin\Debug\HostEdit.pdb
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\obj\Debug\HostEdit.csprojResolveAssemblyReference.cache
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\obj\Debug\HostEdit.HostMain.resources
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\obj\Debug\HostEdit.Properties.Resources.resources
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\obj\Debug\HostEdit.csproj.GenerateResource.Cache
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\obj\Debug\HostEdit.csproj.CoreCompileInputs.cache
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\obj\Debug\HostEdit.exe
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\obj\Debug\HostEdit.pdb

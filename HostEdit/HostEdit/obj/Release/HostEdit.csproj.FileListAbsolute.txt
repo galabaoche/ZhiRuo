@@ -1,0 +1,9 @@
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\bin\Release\HostEdit.exe.config
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\bin\Release\HostEdit.exe
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\bin\Release\HostEdit.pdb
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\obj\Release\HostEdit.HostMain.resources
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\obj\Release\HostEdit.Properties.Resources.resources
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\obj\Release\HostEdit.csproj.GenerateResource.Cache
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\obj\Release\HostEdit.csproj.CoreCompileInputs.cache
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\obj\Release\HostEdit.exe
+C:\Users\v-xujren\source\repos\HostEdit\HostEdit\obj\Release\HostEdit.pdb
