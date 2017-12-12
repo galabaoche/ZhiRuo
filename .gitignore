@@ -4,4 +4,6 @@
 
 *.suo
 /save283.rar
-/HostEdit/HostEdit/obj/Debug
+/obj/Debug
+/bin/Debug
+.dll
