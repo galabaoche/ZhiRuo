@@ -7,3 +7,4 @@
 /obj/Debug
 /bin/Debug
 .dll
+/HostEdit/.vs/HostEdit/v15/Server/sqlite3
