@@ -17,7 +17,7 @@ namespace HostEdit
         public HostMain()
         {
             InitializeComponent();
-            this.tbNewIp.Text = "40.125.172.125";
+            this.tbNewIp.Text = "100.100.100.100";
             hostPath = Environment.SystemDirectory + "\\drivers\\etc\\hosts";
             var zhiRuoDirectory = Directory.CreateDirectory(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\zhiruo");
             localZhiRuoIpListPath = zhiRuoDirectory.FullName + "\\ipList.bat";
@@ -35,6 +35,7 @@ namespace HostEdit
                         if (item.Value)
                         {
                             cbCurrentIpList.SelectedItem = item.Key;
+                            this.tbNewIp.Text = item.Key;
                         }
                     }
                 }    
@@ -43,19 +44,20 @@ namespace HostEdit
 
         private void btnZhiruo_Click(object sender, EventArgs e)
         {
-            restoveDodox();
+            RestoveDodox();
             File.AppendAllLines(hostPath, new string[] { $"{cbCurrentIpList.SelectedItem.ToString()} heroii.dodox.com.cn" });
             HostAndTest();
         }
 
         private void btnDodox_Click(object sender, EventArgs e)
         {
-            restoveDodox();
+            RestoveDodox();
             HostAndTest();
         }
 
-        private void restoveDodox()
+        private void RestoveDodox()
         {
+            CloseALLieProcess();
             List<string> lines = new List<string>();
             lines.AddRange(File.ReadAllLines(hostPath));
             foreach (var item in cbCurrentIpList.Items)
@@ -114,6 +116,7 @@ namespace HostEdit
         {
             if (this.cbCurrentIpList.SelectedItem != null)
             {
+                RestoveDodox();
                 object willRemoveItem = cbCurrentIpList.SelectedItem;
                 this.cbCurrentIpList.SelectedIndex = -1;
                 this.cbCurrentIpList.Items.Remove(willRemoveItem);
@@ -122,7 +125,7 @@ namespace HostEdit
                     this.cbCurrentIpList.SelectedItem = this.cbCurrentIpList.Items[0];
                 }            
                 this.cbCurrentIpList.Refresh();
-            }
+            }          
         }
 
         private void HostMain_FormClosed(object sender, FormClosedEventArgs e)
